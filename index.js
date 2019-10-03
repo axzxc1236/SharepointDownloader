@@ -438,7 +438,6 @@ function download_list_of_files(needle_options) {
 								//but that link is often throttled by sharepoint server.
 								//I don't know why ["webUrl"] is less likely to be throttled...but it is
 								if (resp.statusCode == 200) {
-									console.log(response.body["file"]["mimeType"])
 									if (response.body["file"]["mimeType"].startsWith("application/vnd")) {
 										//application/vnd.... is mimetype for documents that will probably open onedrive APPs
 										//(which will not let us download the file.)
