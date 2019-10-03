@@ -1,0 +1,18 @@
+#This is tasklist file, we have standard format here
+// Format 1: (sharepoint link) dir=="(Where to put your files)"
+// Format 2: (sharepoint link) dir=="(Where to put your files)" pwd==(password, without quote)
+#Note that dir== has to be specified in ABSOLUTE path, you can't do something like "./"
+#Lines that are empty, start with # or start with // will be ignored by program
+#Enjoy.
+
+#Testcase 1 demonstrates this program is able to download files, folders, and file inside folders and retain file stracture
+https://jxjjxy-my.sharepoint.com/:f:/g/personal/axzxc1236_t_odmail_cn/ErxkpITBcctJnyYvvbCVowMBP_5j4cFC-UnVRpLwheYkdQ dir=="D:\script tests\testcase 1"
+
+#Testcase 2 demonstrates this program can download files from password protected folder.
+https://jxjjxy-my.sharepoint.com/:f:/g/personal/axzxc1236_t_odmail_cn/EvstWNNjWlZFjb2idRb4CJYBO49sUT3624kbWEvKYaUHoQ dir=="D:\script tests\testcase 2" pwd==rickroll alert
+
+#Testcase 3 demonstrates this program can't download anything if you give it wrong password.
+https://jxjjxy-my.sharepoint.com/:f:/g/personal/axzxc1236_t_odmail_cn/EvstWNNjWlZFjb2idRb4CJYBO49sUT3624kbWEvKYaUHoQ dir=="D:\script tests\testcase 3" pwd==No access for you.
+
+#Testcase 4 demonstrates this program can traverse folder stracture that has many levels.
+https://jxjjxy-my.sharepoint.com/:f:/g/personal/axzxc1236_t_odmail_cn/Egw6CYs2wJxNp7e-nsMMSrwB68ebNz21WsGLcS9wRbJgsA dir=="D:\script tests\testcase 4"
