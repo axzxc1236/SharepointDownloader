@@ -10,6 +10,7 @@ A script that utilizes aria2 to download sharepoint links you received.
 2. You can continue file download when your Internet goes bad, or sometimes the download just... disconnected for no reason.
 3. I once tried to download a sharepoint folder manually, and I got throttled after downloading like 2x files out of hundred files, I had to check the page every few minutes myself... and I don't know after how long, it finally makes me download again.  
    As you might guess, it happened more than few times, throttle and waiting makes me crazy.
+4. You might say sharepoint has a download button when you browse folder page.... it's useful when you download a sharepoint folder under like 1GB, but if the files size goes up (like 10GBs or 200GBs), it will take time and harddrive space to extract the files you downloaded (twice if you are downloading multti-part rar file), not to mention there is no continue downloading... if you lost connection you startover.
 
 ---
 
