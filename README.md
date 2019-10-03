@@ -14,6 +14,12 @@ A script that utilizes aria2 to download sharepoint links you received.
 
 ---
 
+### Demo
+
+![](https://i.imgur.com/IUtATbW.gif)
+
+---
+
 ### Requirements
 1. [Node.js](https://nodejs.org) (I tested with version 10 and 12 during developement, but it might be able to run on older version.)
 2. [Aria2](https://aria2.github.io/) (I tested with 1.34.0)
