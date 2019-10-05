@@ -34,8 +34,9 @@ A script that utilizes aria2 to download sharepoint links you received.
 3. Open aria2.conn.config with a text editor, change "Aria2_token=" section, save file.
 4. Open tasklist with a text editor, you can add tasks there or don't change anything so you can test this script first.
 5. Open a command terminal, do `(full path to aria2c.exe) --conf-path=(full path to aria2.conf)`, you need to change two places in that command for it to work.
-6. Open another command terminal, do `node (path to the code folder)`.
-7. There should be some texts on your second command terminal.
+6. Open another command terminal, do `npm i`.
+7. Do `node (path to the code folder)` in the seconds terminal after previous command completes.
+8. There should be some texts on your second command terminal.
 
 
 ##### Donations?
