@@ -242,6 +242,8 @@ function download_single_sharepoint_link(url, download_dir, needle_options) {
 function get_filelist_of_a_sharepoint_link(url, download_dir, needle_options, prefix="/") {
 	if (prefix == "/")
 		console.log(messages.getting_sharepoint_file_list);
+	if (!url.includes("RowLimit="))
+		url = url + "&RowLimit=9999"; //RowLimit parameter is added to get a list of more than 30 files;
 	return needle("get", url, needle_options)
 	.then(response => {
 		const folderID = url.match("id=([^&]*)")[1];
