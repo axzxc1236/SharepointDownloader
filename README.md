@@ -2,6 +2,10 @@
 
 A script that utilizes aria2 to download sharepoint links you received.
 
+## This script is deprecated, won't be maintained (by me) anyware
+
+## I recommend switching to [pySharepointDownloader](https://github.com/axzxc1236/pySharepointDownloader), I also made this script.
+
 ---
 
 ### Why would I want to use this script?
